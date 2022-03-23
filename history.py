@@ -12,7 +12,9 @@ y=[5,3,4,6,7,8]
 def createPlots():
  plt.barh(x,y)
  plt.show()
- 
+ plt.bar(x,y)
+ plt.scatter(x,y)
+ plt.errorbar(x,y)
 def main():
     createPlots()
     createPlots()
