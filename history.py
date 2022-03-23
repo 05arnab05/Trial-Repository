@@ -11,7 +11,7 @@ y=[5,3,4,6,7,8]
 
 def createPlots():
  plt.barh(x,y)
- plt.show()
+
  print("Seeing how branching effects the repository")
  
 def main():
